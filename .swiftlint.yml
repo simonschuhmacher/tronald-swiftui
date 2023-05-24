@@ -1,0 +1,10 @@
+excluded:
+  - BuildTools/.build
+
+trailing_comma:
+  mandatory_comma: true
+
+disabled_rules:
+  - todo
+  - redundant_string_enum_value
+  - blanket_disable_command

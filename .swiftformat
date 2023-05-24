@@ -1,0 +1,12 @@
+# Options
+
+--exclude BuildTools/README.md
+--exclude BuildTools/.build
+--ifdef outdent
+--maxwidth 120
+
+
+# Rules
+
+--disable enumNamespaces
+--disable redundantRawValues
