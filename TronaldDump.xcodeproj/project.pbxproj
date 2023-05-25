@@ -7,19 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F409C5C12A1E2331000A1448 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409C5C02A1E2331000A1448 /* SearchView.swift */; };
+		F409C5C42A1E4118000A1448 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409C5C32A1E4118000A1448 /* SearchScreen.swift */; };
+		F409C5C72A1E4866000A1448 /* NavigationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409C5C62A1E4866000A1448 /* NavigationContainer.swift */; };
+		F409C5CB2A1E490F000A1448 /* NavigationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409C5CA2A1E490F000A1448 /* NavigationRoute.swift */; };
+		F409C5CD2A1E4F00000A1448 /* QuoteListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409C5CC2A1E4F00000A1448 /* QuoteListScreen.swift */; };
+		F409C5CF2A1E4F0F000A1448 /* QuoteDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409C5CE2A1E4F0F000A1448 /* QuoteDetailScreen.swift */; };
 		F44797C22A1E0A0F00CACD36 /* TronaldDumpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44797C12A1E0A0F00CACD36 /* TronaldDumpApp.swift */; };
-		F44797C42A1E0A0F00CACD36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44797C32A1E0A0F00CACD36 /* ContentView.swift */; };
 		F44797C62A1E0A1100CACD36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44797C52A1E0A1100CACD36 /* Assets.xcassets */; };
 		F44797C92A1E0A1100CACD36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44797C82A1E0A1100CACD36 /* Preview Assets.xcassets */; };
+		F48DFE602A1F648C00682152 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE5F2A1F648C00682152 /* Quote.swift */; };
+		F48DFE622A1F659100682152 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE612A1F659100682152 /* Author.swift */; };
+		F48DFE642A1F65DD00682152 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE632A1F65DD00682152 /* Link.swift */; };
+		F48DFE662A1F661600682152 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE652A1F661600682152 /* Source.swift */; };
+		F48DFE682A1F675B00682152 /* PaginationLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE672A1F675B00682152 /* PaginationLinks.swift */; };
+		F48DFE6A2A1F67DA00682152 /* QuoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE692A1F67DA00682152 /* QuoteResponse.swift */; };
+		F48DFE6D2A1F688A00682152 /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE6C2A1F688A00682152 /* URLSessionClient.swift */; };
+		F48DFE702A1F6BD900682152 /* NetworkRequestErrror.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE6F2A1F6BD900682152 /* NetworkRequestErrror.swift */; };
+		F48DFE732A1F6EC300682152 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE722A1F6EC300682152 /* PreviewData.swift */; };
+		F48DFE752A1F72B600682152 /* TronaldAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE742A1F72B600682152 /* TronaldAPI.swift */; };
+		F48DFE792A1F7A1800682152 /* QuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE782A1F7A1800682152 /* QuoteListView.swift */; };
+		F48DFE7E2A1F8A4400682152 /* Extensions+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE7D2A1F8A4400682152 /* Extensions+JSON.swift */; };
+		F48DFE802A1F8FBD00682152 /* QuoteListScreen+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE7F2A1F8FBD00682152 /* QuoteListScreen+ViewModel.swift */; };
+		F48DFE822A1F9DEE00682152 /* QuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48DFE812A1F9DEE00682152 /* QuoteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F409C5BE2A1E1BED000A1448 /* BuildTools */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = BuildTools; sourceTree = "<group>"; };
+		F409C5C02A1E2331000A1448 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F409C5C32A1E4118000A1448 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		F409C5C62A1E4866000A1448 /* NavigationContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContainer.swift; sourceTree = "<group>"; };
+		F409C5CA2A1E490F000A1448 /* NavigationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRoute.swift; sourceTree = "<group>"; };
+		F409C5CC2A1E4F00000A1448 /* QuoteListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListScreen.swift; sourceTree = "<group>"; };
+		F409C5CE2A1E4F0F000A1448 /* QuoteDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailScreen.swift; sourceTree = "<group>"; };
 		F44797BE2A1E0A0F00CACD36 /* TronaldDump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TronaldDump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44797C12A1E0A0F00CACD36 /* TronaldDumpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TronaldDumpApp.swift; sourceTree = "<group>"; };
-		F44797C32A1E0A0F00CACD36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F44797C52A1E0A1100CACD36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F44797C82A1E0A1100CACD36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F48DFE5F2A1F648C00682152 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		F48DFE612A1F659100682152 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		F48DFE632A1F65DD00682152 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		F48DFE652A1F661600682152 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		F48DFE672A1F675B00682152 /* PaginationLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationLinks.swift; sourceTree = "<group>"; };
+		F48DFE692A1F67DA00682152 /* QuoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteResponse.swift; sourceTree = "<group>"; };
+		F48DFE6C2A1F688A00682152 /* URLSessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
+		F48DFE6F2A1F6BD900682152 /* NetworkRequestErrror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestErrror.swift; sourceTree = "<group>"; };
+		F48DFE722A1F6EC300682152 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		F48DFE742A1F72B600682152 /* TronaldAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TronaldAPI.swift; sourceTree = "<group>"; };
+		F48DFE782A1F7A1800682152 /* QuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListView.swift; sourceTree = "<group>"; };
+		F48DFE7D2A1F8A4400682152 /* Extensions+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+JSON.swift"; sourceTree = "<group>"; };
+		F48DFE7F2A1F8FBD00682152 /* QuoteListScreen+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuoteListScreen+ViewModel.swift"; sourceTree = "<group>"; };
+		F48DFE812A1F9DEE00682152 /* QuoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +71,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F409C5BF2A1E2324000A1448 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F409C5C02A1E2331000A1448 /* SearchView.swift */,
+				F48DFE782A1F7A1800682152 /* QuoteListView.swift */,
+				F48DFE812A1F9DEE00682152 /* QuoteDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F409C5C22A1E4105000A1448 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F409C5C32A1E4118000A1448 /* SearchScreen.swift */,
+				F409C5CC2A1E4F00000A1448 /* QuoteListScreen.swift */,
+				F48DFE7F2A1F8FBD00682152 /* QuoteListScreen+ViewModel.swift */,
+				F409C5CE2A1E4F0F000A1448 /* QuoteDetailScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F409C5C52A1E485B000A1448 /* Navigation Stack */ = {
+			isa = PBXGroup;
+			children = (
+				F409C5C62A1E4866000A1448 /* NavigationContainer.swift */,
+				F409C5CA2A1E490F000A1448 /* NavigationRoute.swift */,
+			);
+			path = "Navigation Stack";
+			sourceTree = "<group>";
+		};
 		F44797B52A1E0A0F00CACD36 = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +121,14 @@
 		F44797C02A1E0A0F00CACD36 /* TronaldDump */ = {
 			isa = PBXGroup;
 			children = (
+				F48DFE7C2A1F8A2D00682152 /* Extensions */,
+				F48DFE6E2A1F6BC900682152 /* Error */,
+				F48DFE6B2A1F684A00682152 /* API */,
+				F48DFE5E2A1F647400682152 /* Model */,
+				F409C5C52A1E485B000A1448 /* Navigation Stack */,
+				F409C5C22A1E4105000A1448 /* Screens */,
+				F409C5BF2A1E2324000A1448 /* Views */,
 				F44797C12A1E0A0F00CACD36 /* TronaldDumpApp.swift */,
-				F44797C32A1E0A0F00CACD36 /* ContentView.swift */,
 				F44797C52A1E0A1100CACD36 /* Assets.xcassets */,
 				F44797C72A1E0A1100CACD36 /* Preview Content */,
 			);
@@ -67,6 +141,53 @@
 				F44797C82A1E0A1100CACD36 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F48DFE5E2A1F647400682152 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F48DFE712A1F6EA800682152 /* Preview Data */,
+				F48DFE5F2A1F648C00682152 /* Quote.swift */,
+				F48DFE612A1F659100682152 /* Author.swift */,
+				F48DFE632A1F65DD00682152 /* Link.swift */,
+				F48DFE652A1F661600682152 /* Source.swift */,
+				F48DFE672A1F675B00682152 /* PaginationLinks.swift */,
+				F48DFE692A1F67DA00682152 /* QuoteResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F48DFE6B2A1F684A00682152 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F48DFE6C2A1F688A00682152 /* URLSessionClient.swift */,
+				F48DFE742A1F72B600682152 /* TronaldAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F48DFE6E2A1F6BC900682152 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				F48DFE6F2A1F6BD900682152 /* NetworkRequestErrror.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		F48DFE712A1F6EA800682152 /* Preview Data */ = {
+			isa = PBXGroup;
+			children = (
+				F48DFE722A1F6EC300682152 /* PreviewData.swift */,
+			);
+			path = "Preview Data";
+			sourceTree = "<group>";
+		};
+		F48DFE7C2A1F8A2D00682152 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F48DFE7D2A1F8A4400682152 /* Extensions+JSON.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +303,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F44797C42A1E0A0F00CACD36 /* ContentView.swift in Sources */,
+				F409C5C42A1E4118000A1448 /* SearchScreen.swift in Sources */,
+				F409C5CB2A1E490F000A1448 /* NavigationRoute.swift in Sources */,
+				F48DFE732A1F6EC300682152 /* PreviewData.swift in Sources */,
+				F409C5CF2A1E4F0F000A1448 /* QuoteDetailScreen.swift in Sources */,
+				F48DFE702A1F6BD900682152 /* NetworkRequestErrror.swift in Sources */,
+				F48DFE6D2A1F688A00682152 /* URLSessionClient.swift in Sources */,
+				F48DFE642A1F65DD00682152 /* Link.swift in Sources */,
+				F48DFE802A1F8FBD00682152 /* QuoteListScreen+ViewModel.swift in Sources */,
+				F48DFE622A1F659100682152 /* Author.swift in Sources */,
+				F48DFE602A1F648C00682152 /* Quote.swift in Sources */,
+				F409C5C72A1E4866000A1448 /* NavigationContainer.swift in Sources */,
+				F48DFE662A1F661600682152 /* Source.swift in Sources */,
+				F48DFE792A1F7A1800682152 /* QuoteListView.swift in Sources */,
+				F48DFE7E2A1F8A4400682152 /* Extensions+JSON.swift in Sources */,
+				F409C5CD2A1E4F00000A1448 /* QuoteListScreen.swift in Sources */,
+				F48DFE822A1F9DEE00682152 /* QuoteDetailView.swift in Sources */,
+				F48DFE752A1F72B600682152 /* TronaldAPI.swift in Sources */,
+				F409C5C12A1E2331000A1448 /* SearchView.swift in Sources */,
 				F44797C22A1E0A0F00CACD36 /* TronaldDumpApp.swift in Sources */,
+				F48DFE682A1F675B00682152 /* PaginationLinks.swift in Sources */,
+				F48DFE6A2A1F67DA00682152 /* QuoteResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct TronaldDumpApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationContainer()
         }
     }
 }
