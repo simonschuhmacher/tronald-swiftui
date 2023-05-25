@@ -28,17 +28,22 @@ struct SearchView: View {
                 HStack {
                     Image(systemName: "magnifyingglass")
                         .foregroundColor(.white)
-                        .font(.system(size: 30))
+                        .font(.system(size: 25))
                 }
-                .frame(width: 60, height: 60)
+                .frame(width: 50, height: 50)
                 .background(.black)
                 .cornerRadius(10)
                 .padding(6)
             }
         }
-        .overlay(
-            RoundedRectangle(cornerRadius: 10)
-                .stroke(lineWidth: 1)
+        .background(
+            ZStack {
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .fill(Color(.systemBackground))
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .stroke(lineWidth: 1)
+                    .fill(Color(.label))
+            }
         )
     }
 }

@@ -10,7 +10,7 @@ import Foundation
 extension JSONDecoder.DateDecodingStrategy {
     static let iso8601WithFractionalSeconds: JSONDecoder.DateDecodingStrategy = .custom { decoder in
         let formatter = ISO8601DateFormatter()
-        formatter.formatOptions = [.withFractionalSeconds]
+        formatter.formatOptions.insert(.withFractionalSeconds)
 
         let container = try decoder.singleValueContainer()
         let dateString = try container.decode(String.self)

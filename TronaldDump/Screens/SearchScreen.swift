@@ -12,11 +12,14 @@ struct SearchScreen: View {
 
     var body: some View {
         VStack {
+            Spacer()
             SearchView { query in
                 navigationPath.append(.list(query))
             }
             .padding(32)
+            Spacer()
         }
+        .background(Color(.systemGroupedBackground))
         .navigationTitle("Search")
     }
 }

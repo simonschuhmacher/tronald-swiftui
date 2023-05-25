@@ -14,7 +14,7 @@ struct QuoteListView: View {
         List {
             ForEach(quotes, id: \.quoteID) { quote in
                 NavigationLink(value: NavigationRoute.detail(quote)) {
-                    Text(quote.value)
+                    QuoteListItem(quote: quote)
                 }
             }
         }

@@ -12,7 +12,15 @@ struct QuoteDetailScreen: View {
     let quote: Quote
 
     var body: some View {
-        QuoteDetailView(quote: quote)
+        ScrollView {
+            VStack {
+                QuoteDetailView(quote: quote)
+            }
+            .padding()
+        }
+        .frame(maxWidth: .infinity)
+        .background(Color(.systemGroupedBackground))
+        .navigationTitle("Quote")
     }
 }
 
