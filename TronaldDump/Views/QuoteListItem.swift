@@ -11,13 +11,14 @@ struct QuoteListItem: View {
     let quote: Quote
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
+        VStack(alignment: .leading, spacing: 10) {
             Text("“ ").bold().foregroundColor(Color(.tertiaryLabel)) +
                 Text(quote.value).foregroundColor(Color(.label)) +
                 Text(" ”").bold().foregroundColor(Color(.tertiaryLabel))
             Text("— \(quote.appearedAt.defaultDateString())")
                 .bold()
                 .foregroundColor(Color(.secondaryLabel))
+                .frame(maxWidth: .infinity, alignment: .trailing)
         }
         .multilineTextAlignment(.leading)
     }
