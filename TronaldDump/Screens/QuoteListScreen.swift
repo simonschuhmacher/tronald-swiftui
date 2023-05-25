@@ -20,16 +20,28 @@ struct QuoteListScreen: View {
     var body: some View {
         VStack {
             if viewModel.isLoading {
+                Spacer()
                 ProgressView()
                     .controlSize(.large)
+                    .padding()
+                Spacer()
             } else if let error = viewModel.error {
-                Text("An error occured while searching for «\(viewModel.searchQuery)».")
+                Spacer()
+                Text("An error occured while searching for «\(viewModel.searchQuery)».\n\(error.localizedDescription)")
+                    .padding()
+                Spacer()
             } else if let quoteResponse = viewModel.quoteResponse, quoteResponse.embedded.quotes.count > 0 {
                 QuoteListView(quotes: quoteResponse.embedded.quotes)
             } else {
+                Spacer()
                 Text("No results found for «\(viewModel.searchQuery)»")
+                    .padding()
+                Spacer()
             }
         }
+        .multilineTextAlignment(.center)
+        .frame(maxWidth: .infinity)
+        .background(Color(.systemGroupedBackground))
         .navigationTitle(viewModel.searchQuery)
     }
 }
